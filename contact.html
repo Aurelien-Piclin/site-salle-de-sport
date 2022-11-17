@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Nom de la salle de sport - Contact</title>
+
+    <link rel="stylesheet" href="bootstrap/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2">
+                <img src="image/logo.png" alt="fastfit" id="logoheader" class="img-fluid">
+            </div>
+            <div class="col-sm-7 col-md-9 col-lg-10 col-xl-10 d-flex align-items-center">
+                <h2 id="slogan">FastFit : une progression rapide assurée !</h2>
+            </div>
+            <div class="col-sm-2 col-md-12 col-lg-12 col-xl-12 ">
+                <nav>
+                    <ul class="d-flex flex-row justify-content-around">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="abonnement.html">Abonnements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galerie.html">Galerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+            </nav>
+            <li id="menud"><span>Menu</span>
+                <ul>
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="abonnement.html">Formule</a></li>
+                    <li><a class="nav-link" href="galerie.html">Galerie</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </div>
+        </div>
+    </header>
+
+    <h2>Vos coordonnées :</h2>
+    <p class="text-danger">* Ces zones sont obligatoires pour envoyer le formulaire.</p>
+    <form>
+        <div class="row my-5">
+            <p class=col-1></p>
+            <h3 class="col-4">E-mail :</h3>
+            <input type="text" Value="" class="col-3" id="email">
+            <p class="col-2"></p>
+            <p class="col-2 text-danger">*</p>
+        </div>
+        <div class="row my-5">
+            <p class="col-1"></p>
+            <h3 class="col-4">Sujet du mail :</h3>
+            <input type="text" Value="" class="col-3" id="sujet">
+            <p class="col-2"></p>
+            <p class="col-2 text-danger">*</p>
+        </div>
+        <div class="row my-5">
+            <p class="col-1"></p>
+            <h3 class="col-4">Contenu :</h3>
+            <input type="text" Value="" class="col-3" id="message">
+            <p class="col-2"></p>
+            <p class="col-2">*</p>
+        </div>
+        <div class="row">
+            <p class="col-1"></p>
+            <input type="button" name="but" value="Envoyer" onClick="validationEnvoi();"
+                class="col-2 text-center envoi">
+        </div>
+    </form>
+
+
+    <footer class="container-fluid mt-2">
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-4 d-flex align-items-center justify-content-around">
+                <a href="#"><img src="image/facebook.png" alt="facebook" class="mr-3 sociaux"></a>
+                <a href="#"><img src="image/instagram.png" alt="instagram" class="mr-3 sociaux"></a>
+                <a href="#"><img src="image/pinterest.png" alt="pinterest" class="mr-3 sociaux"></a>
+                <a href="#"><img src="image/twitter.png" alt="twitter" class="mr-3 sociaux"></a>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-3 ml-3">
+                <p class="text-center">65 rue du Général Ailleret
+                    <br> 93260 LES LILAS
+                    <br>Tel: 04.00.00.00.00
+                    <br>Email: Fastfit@gmail.com
+                </p>
+
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 pl-0 align-self-center text-center">
+                @ 2022. CREATED BY APIC
+            </div>
+        </div>
+    </footer>
+
+    <script src="bootstrap/bootstrap.bundle.js"></script>
+    <script src="formulaire.js"></script>
+</body>
+
+
+</html>
